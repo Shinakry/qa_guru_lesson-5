@@ -18,7 +18,7 @@ public class dragAndDropElement {
     }
 
     @Test
-    void testDragAndDropWithClickAndHold(){
+    void testDragAndDropWithClickAndHoldTest(){
         open("https://the-internet.herokuapp.com/drag_and_drop");
         $("#column-a").shouldHave(text("A"));
         $("#column-b").shouldHave(text("b"));
@@ -28,7 +28,7 @@ public class dragAndDropElement {
     }
 
     @Test
-    void testDragAndDropWithDragAndDrop(){
+    void testDragAndDropWithDragAndDropTest(){
         open("https://the-internet.herokuapp.com/drag_and_drop");
         $("#column-a").shouldHave(text("A"));
         $("#column-b").shouldHave(text("b"));

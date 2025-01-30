@@ -17,7 +17,7 @@ public class LoadPageTheAIPowered {
     }
 
     @Test
-    void findPageThePowered(){
+    void findPageThePoweredTest(){
         open("https://github.com/");
         $(".HeaderMenu-nav").$(byText("Solutions")).hover();
         $(".HeaderMenu-nav").$(byTagAndText("a","Enterprises")).click();
