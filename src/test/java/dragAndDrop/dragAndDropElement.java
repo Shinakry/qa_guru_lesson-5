@@ -1,4 +1,4 @@
-package github;
+package dragAndDrop;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.DragAndDropOptions;
