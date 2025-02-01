@@ -1,4 +1,4 @@
-package dragAndDrop;
+package dragandarop;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.DragAndDropOptions;
@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.*;
 
-public class dragAndDropElement {
+public class DragAndDropElement {
 
     @BeforeAll
     static void beforeAll(){
