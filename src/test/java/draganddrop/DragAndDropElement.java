@@ -1,4 +1,4 @@
-package dragandarop;
+package draganddrop;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.DragAndDropOptions;

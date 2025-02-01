@@ -22,6 +22,5 @@ public class LoadPageTheAIPowered {
         $(".HeaderMenu-nav").$(byText("Solutions")).hover();
         $(".HeaderMenu-nav").$(byTagAndText("a","Enterprises")).click();
         $("#hero-section-brand-heading").shouldBe(visible).shouldHave(text("The AI-powered"));
-        sleep(5000);
     }
 }
